@@ -24,10 +24,29 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
+  padding-top:0px;
+  min-width: 440px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+#headerJumbotron {
+  overflow: hidden;
 }
+
+.navbar {
+  padding-top: 0;
+}
+/* 
+@media (max-width: 767px) {
+  .navbar {
+    .navbar-collapse {
+      background: #111;
+    }
+
+    &.shrink {
+      .navbar-collapse {
+        background: #f8f8f8;
+      }
+    }
+  }
+} */
